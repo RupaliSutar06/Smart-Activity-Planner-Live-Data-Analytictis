@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Activity Planner</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- ================= SIDEBAR ================= -->
+    <aside class="sidebar">
+
+        <div>
+            <h2>🌤 Smart Activity Planner</h2>
+            <p>Weather + AI Data Analysis</p>
+        </div>
+
+        <div>
+            <h3>📌 Recent Searches</h3>
+            <div id="history"></div>
+        </div>
+
+        <div>
+            <p>Powered by WeatherAPI</p>
+        </div>
+
+    </aside>
+
+    <!-- ================= MAIN ================= -->
+    <main class="main-content">
+
+        <!-- TOP BAR -->
+        <div class="top-bar">
+
+            <input type="text" id="cityInput" placeholder="Enter city...">
+
+            <button id="searchBtn">
+                <i class="fa fa-search"></i> Search
+            </button>
+
+            <button id="locationBtn">
+                📍 Location
+            </button>
+
+            <button id="themeToggle">
+                🌙 Theme
+            </button>
+
+        </div>
+
+        <!-- ================= WEATHER CARD ================= -->
+        <div class="weather-card">
+
+            <h2 id="cityName">--</h2>
+            <p id="localTime">--</p>
+
+            <img id="weatherIcon" class="weather-icon" src="">
+
+            <h1 id="temperature">--</h1>
+            <h3 id="condition">--</h3>
+
+            <!-- AI RESULT -->
+            <!-- <button onclick="getAISuggestion()">🤖 AI Suggestion</button> -->
+            <div class="ai-result" id="aiText">
+                AI suggestion will appear here
+            </div>
+
+            
+
+        </div>
+
+        <!-- ================= DETAILS ================= -->
+        <div class="details">
+
+            <div><h4>Humidity</h4><p id="humidity">--</p></div>
+            <div><h4>Wind</h4><p id="wind">--</p></div>
+            <div><h4>Pressure</h4><p id="pressure">--</p></div>
+            <div><h4>Cloud</h4><p id="cloud">--</p></div>
+
+        </div>
+
+        <!-- ================= FORECAST ================= -->
+        <div class="forecast">
+
+            <h2>📅 7 Day Forecast</h2>
+
+            <div id="forecastContainer"></div>
+
+        </div>
+
+        <!-- ================= AQI ================= -->
+        <div class="forecast">
+
+            <h2>🌫️ Air Quality Index (AQI)</h2>
+
+            <div class="aqi-grid">
+
+                <div class="aqi-card">
+                    <h3>PM2.5</h3>
+                    <p id="pm25">--</p>
+                </div>
+
+                <div class="aqi-card">
+                    <h3>PM10</h3>
+                    <p id="pm10">--</p>
+                </div>
+
+                <div class="aqi-card">
+                    <h3>CO</h3>
+                    <p id="co">--</p>
+                </div>
+
+                <div class="aqi-card">
+                    <h3>O₃</h3>
+                    <p id="o3">--</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- ================= CHART ================= -->
+        <div class="chart-box">
+
+            <h2>📈 Temperature Trend</h2>
+
+            <canvas id="tempChart"></canvas>
+
+        </div>
+
+    </main>
+
+</div>
+
+<!-- SCRIPT -->
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

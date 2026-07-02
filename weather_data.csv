@@ -1,0 +1,21 @@
+Date,City,Country,Temperature,Humidity,Wind,Pressure,Condition,PM2.5,PM10,CO,O3
+2026-06-22 16:52:58,Ahmednagar,India,40.0,22,20.9,1001.0,Sunny,19.3,50.1,110.0,107.0
+2026-06-22 16:53:35,Baramati,India,33.1,40,18.7,1004.0,Light rain shower,4.0,5.3,132.0,65.0
+2026-06-22 16:53:43,Sangali,Philippines,28.0,79,7.6,1010.0,Partly cloudy,2.7,3.3,150.0,65.0
+2026-06-22 16:53:56,Pune,India,31.3,50,22.3,1005.0,Patchy rain nearby,4.2,5.2,142.0,71.0
+2026-06-22 16:54:05,Nanded,India,36.4,35,9.7,1002.0,Patchy rain nearby,10.3,11.8,144.0,104.0
+2026-06-22 16:54:12,Kolhapur,India,28.2,66,24.8,1009.0,Partly cloudy,3.8,4.4,128.0,70.0
+2026-06-24 11:47:24,Akola,India,30.5,59,11.5,1005.0,Partly Cloudy,9.2,13.4,143.0,92.0
+2026-06-24 11:48:00,Chinchwad,India,22.9,85,15.8,1009.0,Patchy rain nearby,5.0,8.5,126.0,62.0
+2026-06-24 11:48:12,Thanesar,India,40.3,21,5.8,1000.0,Sandstorm,86.8,373.5,240.0,146.0
+2026-06-24 11:48:33,Mumbai,India,25.2,94,16.2,1008.0,Moderate or heavy rain shower,11.7,30.6,168.0,52.0
+2026-06-24 11:48:43,Beed Bolin,Iran,39.7,18,11.5,1000.0,Sunny,41.1,130.9,150.0,152.0
+2026-06-26 11:50:27,Latur,India,24.8,77,15.8,1009.0,Patchy rain nearby,25.7,74.7,132.0,95.0
+2026-06-26 11:50:28,Latur,India,24.8,77,15.8,1009.0,Patchy rain nearby,25.7,74.7,132.0,95.0
+2026-07-02 12:09:10,Junnar,India,23.9,98,9.4,1007.0,Moderate rain,2.6,3.3,119.0,45.0
+2026-07-02 12:10:27,Kolhapur,India,24.2,94,25.2,1011.0,Overcast,4.2,4.9,136.0,49.0
+2026-07-02 12:11:10,Pandharpur,India,28.7,56,37.1,1006.0,Patchy rain nearby,2.1,2.3,113.0,60.0
+2026-07-02 15:32:11,Baramati,India,23.0,85,18.7,1007.0,Light rain,2.5,3.1,148.0,55.0
+2026-07-02 15:32:12,Baramati,India,23.0,85,18.7,1007.0,Light rain,2.5,3.1,148.0,55.0
+2026-07-02 15:34:57,Jejuri,India,22.5,91,11.2,1007.0,Light rain shower,3.3,4.4,181.0,47.0
+2026-07-02 15:37:40,Pune,India,22.5,91,11.2,1007.0,Light rain shower,3.3,4.4,181.0,47.0
