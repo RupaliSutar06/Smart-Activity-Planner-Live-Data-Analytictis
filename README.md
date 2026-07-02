@@ -45,11 +45,12 @@ SmartActivityPlanner/ │── app.py
 ## 📸 Screenshots
 
 ### 🌐 Web Application
-![Web App](https://github.com/RupaliSutar06/Smart-Activity-Planner-Live-Data-Analytictis/raw/main/Screenshot%202026-07-02%20121835.png?raw=true) (https://github.com/RupaliSutar06/Smart-Activity-Planner-Live-Data-Analytictis/raw/main/Screenshot%202026-07-02%20121759.png?raw=true).
+![Web App](https://github.com/RupaliSutar06/Smart-Activity-Planner-Live-Data-Analytictis/raw/main/Screenshot%202026-07-02%20121835.png?raw=true) 
+(https://github.com/RupaliSutar06/Smart-Activity-Planner-Live-Data-Analytictis/raw/main/Screenshot%202026-07-02%20121759.png?raw=true).
 
 
 ### 📊 Power BI Dashboard
-![Dashboard](https://github.com/RupaliSutar06/Smart-Activity-Planner-Live-Data-Analytics/raw/main/Screenshot%202026-07-02%20121924.png?raw=true)
+![Dashboard](https://github.com/RupaliSutar06/Smart-Activity-Planner-Live-Data-Analytictis/raw/main/Screenshot%202026-07-02%20121924.png?raw=true)
 
 ---
 
